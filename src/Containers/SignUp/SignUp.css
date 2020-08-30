@@ -1,0 +1,109 @@
+.signup {
+  padding: 15vh 3vw 10vh 3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup h2 {
+  margin-bottom: 0.8em;
+  color: white;
+  text-shadow: 1px 1px 2px #662582;
+}
+
+.signup form {
+  background-color: #fc5d55;
+  padding: 1vh 2vw 2vh 2vw;
+  color: white;
+  border-radius: 0.5em;
+  width: 80vw;
+}
+
+.signup .input {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.signup .input label {
+  margin-bottom: 12px;
+  text-align: left;
+  width: 10vw;
+}
+
+.signup input {
+  font-size: 16px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #fffcff;
+  border-radius: 5px;
+  padding: 6px;
+  width: 40vw;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+}
+
+.signup .inputSelect {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.signup .inputSelect label {
+  width: 70vw;
+}
+.signup .select {
+  font-size: 16px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-radius: 5px;
+  padding: 6px;
+  width: 40vw;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+  background-color: #ffffff;
+  width: 80vw;
+}
+
+.signup input:focus {
+  outline: none;
+}
+
+.signup button {
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5em 3em;
+  margin-top: 1em;
+  background-color: #662582;
+  color: white;
+}
+
+.changePage {
+  margin-top: 2em;
+}
+
+.signup .link {
+  color: white;
+}
+
+@media only screen and (orientation: landscape) {
+  .signup h2 {
+    font-size: 3vw;
+  }
+
+  .signup label {
+    font-size: 1.5vw;
+  }
+  .signup form {
+    padding: 4vh 2vw 4vh 2vw;
+    width: 55vw;
+  }
+  .signup .select {
+    width: 55vw;
+  }
+}

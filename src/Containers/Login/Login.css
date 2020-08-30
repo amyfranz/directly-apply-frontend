@@ -1,0 +1,78 @@
+.login {
+  padding: 15vh 3vw 10vh 3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login h2 {
+  margin-bottom: 0.8em;
+  color: white;
+  text-shadow: 1px 1px 2px #662582;
+}
+
+.login form {
+  background-color: #fc5d55;
+  padding: 1vh 2vw 2vh 2vw;
+  color: white;
+  border-radius: 0.5em;
+  width: 80vw;
+}
+
+.login .input {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login .input label {
+  margin-bottom: 12px;
+}
+
+.login input {
+  font-size: 16px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #fffcff;
+  border-radius: 5px;
+  padding: 6px;
+  width: 40vw;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+}
+.login input:focus {
+  outline: none;
+}
+
+.login button {
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5em 3em;
+  margin-top: 1em;
+  background-color: #662582;
+  color: white;
+}
+
+.changePage {
+  margin-top: 2em;
+}
+
+.login .link {
+  color: white;
+}
+
+@media only screen and (orientation: landscape) {
+  .login h2 {
+    font-size: 3vw;
+  }
+
+  .login label {
+    font-size: 1.5vw;
+  }
+  .login form {
+    padding: 4vh 2vw 4vh 2vw;
+    width: 55vw;
+  }
+}

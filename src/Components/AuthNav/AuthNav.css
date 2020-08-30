@@ -1,0 +1,35 @@
+.nav {
+  background-color: #fc5d55;
+  display: flex;
+  justify-content: space-between;
+  padding: 2vw;
+  align-items: center;
+  position: fixed;
+  width: 96vw;
+}
+
+.nav img {
+  width: 15vw;
+}
+
+.nav button {
+  padding: 2vw 3vw;
+  background-color: white;
+  border: none;
+  color: #fc5d55;
+  font-weight: 600;
+  border-radius: 0.5em;
+}
+
+@media only screen and (orientation: landscape) {
+  .nav {
+    width: 98vw;
+    padding: 1vw;
+  }
+  .nav img {
+    width: 5vw;
+  }
+  .nav button {
+    padding: 1vw 2vw;
+  }
+}

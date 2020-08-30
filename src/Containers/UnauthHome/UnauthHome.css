@@ -1,0 +1,94 @@
+.unAuthHeading {
+  background-color: #fc5d55;
+  padding: 30vw 5vw;
+}
+
+.unAuthHeading h2 {
+  margin-bottom: 1em;
+  color: white;
+}
+
+.unAuthHeading a {
+  color: white;
+}
+
+.unAuthHeading h5 {
+  margin-top: 2em;
+  color: white;
+}
+
+.unAuthHeading span {
+  text-decoration: underline wavy #662582;
+}
+
+.jobTypes {
+  padding: 5vw;
+}
+
+.jobTypes h3 {
+  font-weight: lighter;
+  margin: 1em;
+}
+
+.jobs {
+  display: flex;
+  overflow: scroll;
+  height: 65vw;
+  max-height: 500px;
+}
+
+.jobCard {
+  width: 80vw;
+  max-width: 600px;
+  height: 60vw;
+  max-height: 400px;
+  margin: 0 0.5em;
+  border-radius: 0.5em;
+  box-shadow: 3px 3px 5px 1px rgba(196, 188, 196, 1);
+}
+
+.jobs a {
+  text-decoration: none;
+}
+
+.jobCard h5,
+.jobCard p {
+  text-align: left;
+  margin-left: 1em;
+  color: black;
+}
+
+.jobCard h5 {
+  font-size: 1em;
+}
+
+.jobCard p {
+  font-size: 1em;
+  margin-top: 5px;
+  color: rgb(80, 78, 78);
+}
+
+.jobCard img {
+  border-radius: 0.5em 0.5em 0 0;
+  width: 80vw;
+  max-width: 600px;
+  height: 40vw;
+  max-height: 300px;
+  object-fit: cover;
+  margin-bottom: 0.5em;
+}
+
+@media only screen and (orientation: landscape) {
+  .unAuthHeading {
+    padding: 10vw 5vw;
+  }
+  .unAuthHeading h2 {
+    font-size: 5vw;
+  }
+  .unAuthHeading h5 {
+    font-size: 1.5vw;
+  }
+  .jobTypes h3 {
+    font-size: 3vw;
+  }
+}
