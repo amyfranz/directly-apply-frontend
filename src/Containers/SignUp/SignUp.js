@@ -15,7 +15,7 @@ export default class SignUp extends Form {
       phone: "",
       password: "",
       passwordConfirm: "",
-      findUs: "",
+      findUs: "linkedin",
     },
     errors: {},
     findUs: [
